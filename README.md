@@ -13,7 +13,7 @@ This is a lightweight **Instagram clone built in Flutter**, featuring a scrollab
 ## 🎥 Demo
 
 <p align="center">
-  <img src="assets/insta_demo.gif" width="600" alt="Instagram Clone Demo">
+  <img src="assets/insta_demo.gif" width="300" height="400" alt="Instagram Clone Demo">
 </p>
 
 
