@@ -5,9 +5,9 @@ import 'package:instagram/Widgets/uihelper.dart';
 class SignUpScreen extends StatelessWidget {
   SignUpScreen({super.key});
 
-  TextEditingController emailController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
-  TextEditingController usernamecontroller = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
+  final TextEditingController usernamecontroller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {

@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:instagram/Screens/SignUp/signup_screen.dart';
+import 'package:instagram/Screens/bottomnav/bottom_nav_screen.dart';
 import 'package:instagram/Widgets/uihelper.dart';
 
 class LoginScreen extends StatelessWidget {
   LoginScreen({super.key});
 
-  TextEditingController emailController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +50,15 @@ class LoginScreen extends StatelessWidget {
               ],
             ),
             SizedBox(height: 10),
-            Uihelper.CustomButton(callback: () {}, buttonName: "Log In"),
+            Uihelper.CustomButton(
+              callback: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => BottomNavScreen()),
+                );
+              },
+              buttonName: "Log In",
+            ),
             SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
