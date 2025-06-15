@@ -1,25 +1,44 @@
-📸 Instagram Clone in Flutter (with Random Image Feed)
+# 📸 Instagram Clone in Flutter (with Random Image Feed)
 
-This is a lightweight Instagram clone built in Flutter, featuring a scrollable feed of images fetched randomly using the free Picsum Photos API.
-🚀 Features
+This is a lightweight **Instagram clone built in Flutter**, featuring a scrollable feed of images fetched randomly using the free [Picsum Photos API](https://picsum.photos/).
 
-    📷 Instagram-style feed layout using Flutter widgets
+---
 
-    🔄 Random image loading from Picsum API
+## 🖼️ Preview
 
-    📱 Clean, responsive UI across devices
+![Instagram Clone Homepage](assets/insta.png)
 
+---
 
-📁 Assets
+## 🎥 Demo Video
 
-    🎥 Demo Video: assets/insta_demo.mkv
+> 🔽 Click below to download and watch the demo video:
 
-    🖼️ Homepage Screenshot: assets/insta.png
+[📽️ Watch Demo (insta_demo.mkv)](assets/insta_demo.mkv)
 
-🛠️ Getting Started
+<!-- Optional: Embed with HTML (may not work on GitHub.com) -->
+<!-- 
+<video width="100%" controls>
+  <source src="assets/insta_demo.mkv" type="video/x-matroska">
+  Your browser does not support the video tag.
+</video>
+-->
 
-    Clone the repository
+---
 
-    Run flutter pub get to fetch dependencies
+## 🚀 Features
 
-    Launch using flutter run on your device/emulator
+- Instagram-style scrollable feed using Flutter
+- Fetches and displays random images via Picsum API
+- Responsive and clean UI design
+- Demo video and preview image included in `assets/`
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/yourusername/flutter-instagram-clone.git
+cd flutter-instagram-clone
+flutter pub get
+flutter run
