@@ -12,9 +12,8 @@ This is a lightweight **Instagram clone built in Flutter**, featuring a scrollab
 
 ## 🎥 Demo Video
 
-> 🔽 Click below to download and watch the demo video:
+[▶️ Watch full demo on YouTube](assets/insta_demo.gif)
 
-[📽️ Watch Demo (insta_demo.mkv)](assets/insta_demo.mp4)
 
 <!-- Optional: Embed with HTML (may not work on GitHub.com) -->
 <!-- 
